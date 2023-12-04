@@ -1,0 +1,19 @@
+Pasos para instalar el proyecto
+
+1) Ejecutar el SQL, el script se encuentra en la carpeta "sql" el nombre del archivo es "formulario_votacion.sql", luego de la carga se deben visualizar las siguientes 5 tablas
+- regiones
+- comunas
+- candidatos
+- votantes
+- voto
+
+2) Modificar los valores de conexion de la base de datos que se encuentran en la carpeta "sql" archivo "conexion_sql.php"
+
+3) Se debe modificar la variable "base_url" por la ruta final que se utilizara, se encuentra en la carpeta "assets\js" en el archivo llamado "formulario.js" linea N°10
+
+4) Versiones utilizadas
+
+- El proyecto fue levantado con la aplicancion XAMPP en su version V3.3.0
+- La version de PHP utilizada fue la 8.0.28
+- La version de MariaDB fue la 10.4.28
+
